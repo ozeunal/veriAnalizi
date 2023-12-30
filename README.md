@@ -71,7 +71,7 @@ plt.show()
 0.4364771706566383
 ```
 
-<img src="/cıktı.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="/cıktı.png" alt="MarineGEO circle logo"/>
 
 Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her biri için Pearson korelasyon katsayısını hesaplıyor. Kodun her bölümünün ne yaptığını adım adım açıklayalım:
 
