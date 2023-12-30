@@ -67,7 +67,11 @@ calculate_r(x, y)
 print(calculate_r(x,y))
 plt.show()
 ```
-<img src="/cıktı.png" alt="MarineGEO circle logo"/>
+```Python
+0.4364771706566383
+```
+
+<img src="/cıktı.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
 Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her biri için Pearson korelasyon katsayısını hesaplıyor. Kodun her bölümünün ne yaptığını adım adım açıklayalım:
 
