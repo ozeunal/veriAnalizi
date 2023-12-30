@@ -15,12 +15,12 @@ Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir �
 * 0, iki değişken arasında hiçbir ilişki olmadığını (düz bir çizgi)
 * 1, mükemmel pozitif bir ilişkiyi (1'e yaklaştıkça, değişkenler arasındaki ilişki daha güçlü bir şekilde pozitif yönlüdür) ifade eder.
 
-## Avantajları? <img src="/follow.png" alt="advantage" style="height:200px; width:200px;"/>
+## Avantajları? <img src="/follow.png" alt="advantage" style="height:100px; width:100px;"/>
 1. İlişkiyi Ölçmek: Korelasyon, iki değişken arasındaki ilişkiyi ölçer. Bu, değişkenler arasındaki ilişkinin gücünü ve yönünü anlamamıza yardımcı olur. 
 2. Öngörü Gücü: Korelasyon, bir değişkenin diğerine olan etkisini öngörmemize yardımcı olabilir. Yüksek korelasyon, bir değişkenin diğerine daha güçlü bir şekilde etki ettiğini gösterebilir.
 3. Veri Analizi ve Keşif: Korelasyon, veri analizinde kullanılarak değişkenler arasındaki ilişkileri keşfetmemize yardımcı olur. Bu, veri setindeki önemli ilişkileri anlamamıza ve veri keşfi yapmamıza olanak tanır.
 
-## Dezavantajları? <img src="/unfollow.png" alt="disadvantage" style="height:200px; width:200px;"/>
+## Dezavantajları? <img src="/unfollow.png" alt="disadvantage" style="height:100px; width:100px;"/>
 1. Neden-Sonuç İlişkisi: Korelasyon, iki değişken arasında bir ilişki olduğunu gösterir, ancak bu ilişkinin neden-sonuç ilişkisi olup olmadığını belirtmez.2. İki değişken arasında korelasyon bulunması, birinin diğerini doğrudan etkilediği anlamına gelmez.
 3. Ek Açıklama İhtiyacı: Korelasyon, genellikle ek açıklama ve analiz gerektirir. İki değişken arasında korelasyon bulunması, diğer değişkenlerin etkisinin  göz ardı edildiği anlamına gelmez.
 4. Sınırlı Kapsam: Korelasyon, sadece iki değişken arasındaki ilişkiyi ölçer. Ancak bir veri setinde birden fazla değişkenin etkileşimi olabilir ve bu etkileşimleri korelasyon analiziyle ölçmek zor olabilir.
