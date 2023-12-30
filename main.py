@@ -27,35 +27,4 @@ calculate_r(x, y)
 print(calculate_r(x,y))
 plt.show()
 
-x = [i + random.randint(1, 4) for i in range(20)]
-y = [i + random.randint(1, 4) for i in range(20)]
-plt.scatter(x, y, marker='x')
-print(calculate_r(x,y))
-plt.show()
-
-x = [random.randint(1, 100) for i in range(20)]
-y = x
-plt.scatter(x, y, marker='x')
-print(calculate_r(x,y))
-plt.show()
-
-x = [random.randint(1, 100) for i in range(20)]
-y = [2 * i for i in x]
-plt.scatter(x, y, marker='x')
-print(calculate_r(x,y))
-plt.show()
-
-
-x = [random.randint(1, 100) for i in range(20)]
-y = [i + 5 for i in x]
-plt.scatter(x, y, marker='x')
-print(calculate_r(x,y))
-plt.show()
-
-
-x = [random.randint(1, 100) for i in range(20)]
-y = [20 * i + 5 for i in x]
-plt.scatter(x, y, marker='x')
-print(calculate_r(x,y))
-plt.show()
 

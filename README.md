@@ -56,3 +56,23 @@ def calculate_r(x, y):
 3. `sd_x` ve `sd_y` değişkenleri, `x` ve `y` listelerindeki değerlerin standart sapmalarını hesaplar.
 4. Bir döngü içinde, her bir `x[i]` ve `y[i]` değerinin standart sapma ile bölünmüş halinin çarpımını toplar.
 5. Toplamı, listenin uzunluğuna bölerek Pearson korelasyon katsayısını hesaplar ve bu değeri döndürür.
+
+## Hesaplama
+
+```Python
+x = [random.randint(20, 60) for i in range(20)]
+y = [random.randint(50, 100) for i in range(20)]
+plt.scatter(x, y, marker='x')
+calculate_r(x, y)
+print(calculate_r(x,y))
+plt.show()
+```
+<img src="/cıktı.png" alt="MarineGEO circle logo"/>
+
+Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her biri için Pearson korelasyon katsayısını hesaplıyor. Kodun her bölümünün ne yaptığını adım adım açıklayalım:
+
+1. İlk olarak, `x` ve `y` listeleri rastgele oluşturuluyor ve `plt.scatter()` fonksiyonuyla bu veriler bir scatter plot (nokta grafiği) olarak görselleştiriliyor. Daha sonra, `calculate_r(x, y)` fonksiyonu çağrılarak `x` ve `y` veri setleri için Pearson korelasyon katsayısı hesaplanıyor ve bu değer ekrana yazdırılıyor. `plt.show()` fonksiyonu grafiği göstermek için kullanılıyor.
+
+2. Bu işlem birkaç farklı `x` ve `y` veri seti için tekrarlanıyor. Her bir `x` ve `y` veri seti için aynı işlemler yapılıyor: veriler scatter plot olarak görselleştiriliyor, Pearson korelasyon katsayısı hesaplanıyor ve bu değer ekrana yazdırılıyor.
+
+>Bu kod bloğu, farklı veri setleri üzerinde Pearson korelasyon katsayısının nasıl değiştiğini göstermek için kullanılıyor. `calculate_r()` fonksiyonu, veri setindeki değişkenler arasındaki ilişkinin gücünü ve yönünü ölçer ve bu ölçüm, scatter plot grafikleriyle görselleştirilir. Bu sayede, farklı veri setleri arasındaki ilişkilerin ne kadar güçlü olduğunu ve hangi yönde olduğunu görmemizi sağlar.
