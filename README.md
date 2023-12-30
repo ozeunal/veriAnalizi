@@ -6,7 +6,7 @@ Korelasyon, istatistiksel bir terimdir ve genellikle iki değişken arasındaki 
 
 Korelasyonun mutlak değeri, ilişkinin gücünü gösterirken işaret ise ilişkinin yönünü gösterir. Yani bir korelasyon katsayısı ne kadar büyükse, ilişki o kadar güçlüdür. Pozitif bir korelasyon katsayısı, değişkenler arasında pozitif bir ilişki olduğunu gösterirken, negatif bir korelasyon katsayısı ise negatif bir ilişki olduğunu gösterir.
 <p align="center">
-<img src="/pearson-formula.png" alt="Pearson"/>
+<img src="assets/pearson-formula.png" alt="Pearson"/>
 <p>
 
 ## Pearson Katsayısı
@@ -16,12 +16,12 @@ Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir �
 * 0, iki değişken arasında hiçbir ilişki olmadığını (düz bir çizgi)
 * 1, mükemmel pozitif bir ilişkiyi (1'e yaklaştıkça, değişkenler arasındaki ilişki daha güçlü bir şekilde pozitif yönlüdür) ifade eder.
 
-## <img src="/accept.png" alt="advantage" style="height:25px; width:25px;"/> Avantajları? 
+## <img src="assets/accept.png" alt="advantage" style="height:25px; width:25px;"/> Avantajları? 
 1. İlişkiyi Ölçmek: Korelasyon, iki değişken arasındaki ilişkiyi ölçer. Bu, değişkenler arasındaki ilişkinin gücünü ve yönünü anlamamıza yardımcı olur. 
 2. Öngörü Gücü: Korelasyon, bir değişkenin diğerine olan etkisini öngörmemize yardımcı olabilir. Yüksek korelasyon, bir değişkenin diğerine daha güçlü bir şekilde etki ettiğini gösterebilir.
 3. Veri Analizi ve Keşif: Korelasyon, veri analizinde kullanılarak değişkenler arasındaki ilişkileri keşfetmemize yardımcı olur. Bu, veri setindeki önemli ilişkileri anlamamıza ve veri keşfi yapmamıza olanak tanır.
 
-## <img src="/remove.png" alt="disadvantage" style="height:25px; width:25px;"/> Dezavantajları? 
+## <img src="assets/remove.png" alt="disadvantage" style="height:25px; width:25px;"/> Dezavantajları? 
 1. Neden-Sonuç İlişkisi: Korelasyon, iki değişken arasında bir ilişki olduğunu gösterir, ancak bu ilişkinin neden-sonuç ilişkisi olup olmadığını belirtmez.2. İki değişken arasında korelasyon bulunması, birinin diğerini doğrudan etkilediği anlamına gelmez.
 3. Ek Açıklama İhtiyacı: Korelasyon, genellikle ek açıklama ve analiz gerektirir. İki değişken arasında korelasyon bulunması, diğer değişkenlerin etkisinin  göz ardı edildiği anlamına gelmez.
 4. Sınırlı Kapsam: Korelasyon, sadece iki değişken arasındaki ilişkiyi ölçer. Ancak bir veri setinde birden fazla değişkenin etkileşimi olabilir ve bu etkileşimleri korelasyon analiziyle ölçmek zor olabilir.
@@ -74,7 +74,7 @@ plt.show()
 0.4364771706566383
 ```
 
-<img src="/cıktı.png" alt="Print func"/>
+<img src="assets/cıktı.png" alt="Print func"/>
 
 Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her biri için Pearson korelasyon katsayısını hesaplıyor. Kodun her bölümünün ne yaptığını adım adım açıklayalım:
 
