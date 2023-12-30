@@ -1,10 +1,10 @@
 # Korelasyon nedir?
 Korelasyon, istatistiksel bir terimdir ve genellikle iki değişken arasındaki ilişkiyi ifade eder. İki değişken arasındaki ilişkinin gücünü ve yönünü ölçmek için kullanılan bir istatistiksel ölçüdür. Korelasyon, bu ilişkinin ne kadar güçlü olduğunu ve eğer varsa, hangi yönde olduğunu belirtir.
 
-Korelasyonun mutlak değeri, ilişkinin gücünü gösterirken işaret ise ilişkinin yönünü gösterir. Yani bir korelasyon katsayısı ne kadar büyükse, ilişki o kadar güçlüdür. Pozitif bir korelasyon katsayısı, değişkenler arasında pozitif bir ilişki olduğunu gösterirken, negatif bir korelasyon katsayısı ise negatif bir ilişki olduğunu gösterir.
-
 >Niçin Kullanılır?
 >Korelasyon analizi, istatistiksel ilişkileri anlamak ve veriler arasındaki ilişkileri ölçmek için kullanılır.
+
+Korelasyonun mutlak değeri, ilişkinin gücünü gösterirken işaret ise ilişkinin yönünü gösterir. Yani bir korelasyon katsayısı ne kadar büyükse, ilişki o kadar güçlüdür. Pozitif bir korelasyon katsayısı, değişkenler arasında pozitif bir ilişki olduğunu gösterirken, negatif bir korelasyon katsayısı ise negatif bir ilişki olduğunu gösterir.
 
 ## Pearson Katsayısı
 Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir ölçüyle ifade edilir. Pearson korelasyon katsayısı, -1 ile 1 arasında bir değer alır.
@@ -25,6 +25,34 @@ Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir �
 
 >Korelasyon analizi genellikle ek analizlerle birlikte kullanılır ve tek başına bir veri setinin tüm özelliklerini anlamak için yeterli olmayabilir. Ancak, doğru şekilde kullanıldığında, korelasyon analizi veri setindeki ilişkileri anlamak ve keşfetmek için güçlü bir araç olabilir.
 
+---
 
+# Pearson Korelasyon Katsayısı Nasıl Hesaplanır?
 
+```Python
+def calculate_r(x, y):
+    mean_x = sum(x) / len(x)
+    a = [(x_i - mean_x) ** 2 for x_i in x]
+    b = sum(a) / len(a)
+    sd_x = b ** 0.5
 
+    mean_y = sum(y) / len(y)
+    a = [(y_i - mean_y) ** 2 for y_i in y]
+    b = sum(a) / len(a)
+    sd_y = b ** 0.5
+
+    t = 0
+    for i in range(len(x)):
+        x_z_or_standard_value = (x[i] - mean_x) / sd_x
+        y_z_or_standard_value = (y[i] - mean_y) / sd_y
+        t = t + x_z_or_standard_value * y_z_or_standard_value
+
+    return t / len(x)
+```
+
+`calculate_r()` fonksiyonu, verilen x ve y listeleri için Pearson korelasyon katsayısını (r) hesaplamak için kullanılır. Sırasıyla yaptığı işler;
+1. `mean_x` ve `mean_y` değişkenleri, `x` ve `y` listelerinin ortalamalarını hesaplar.
+2. `a` ve `b` değişkenleri, `x` ve `y` listelerindeki değerlerin varyanslarını hesaplar.
+3. `sd_x` ve `sd_y` değişkenleri, `x` ve `y` listelerindeki değerlerin standart sapmalarını hesaplar.
+4. Bir döngü içinde, her bir `x[i]` ve `y[i]` değerinin standart sapma ile bölünmüş halinin çarpımını toplar.
+5. Toplamı, listenin uzunluğuna bölerek Pearson korelasyon katsayısını hesaplar ve bu değeri döndürür.
