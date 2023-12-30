@@ -5,9 +5,9 @@ Korelasyon, istatistiksel bir terimdir ve genellikle iki değişken arasındaki 
 >Korelasyon analizi, istatistiksel ilişkileri anlamak ve veriler arasındaki ilişkileri ölçmek için kullanılır.
 
 Korelasyonun mutlak değeri, ilişkinin gücünü gösterirken işaret ise ilişkinin yönünü gösterir. Yani bir korelasyon katsayısı ne kadar büyükse, ilişki o kadar güçlüdür. Pozitif bir korelasyon katsayısı, değişkenler arasında pozitif bir ilişki olduğunu gösterirken, negatif bir korelasyon katsayısı ise negatif bir ilişki olduğunu gösterir.
-
+<p align="center">
 <img src="/pearson-formula.png" alt="Pearson"/>
-
+<p>
 ## Pearson Katsayısı
 Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir ölçüyle ifade edilir. Pearson korelasyon katsayısı, -1 ile 1 arasında bir değer alır.
 
@@ -15,12 +15,12 @@ Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir �
 * 0, iki değişken arasında hiçbir ilişki olmadığını (düz bir çizgi)
 * 1, mükemmel pozitif bir ilişkiyi (1'e yaklaştıkça, değişkenler arasındaki ilişki daha güçlü bir şekilde pozitif yönlüdür) ifade eder.
 
-## Avantajları? <img src="/accept.png" alt="advantage" style="height:25px; width:25px;"/>
+## <img src="/accept.png" alt="advantage" style="height:25px; width:25px;"/> Avantajları? 
 1. İlişkiyi Ölçmek: Korelasyon, iki değişken arasındaki ilişkiyi ölçer. Bu, değişkenler arasındaki ilişkinin gücünü ve yönünü anlamamıza yardımcı olur. 
 2. Öngörü Gücü: Korelasyon, bir değişkenin diğerine olan etkisini öngörmemize yardımcı olabilir. Yüksek korelasyon, bir değişkenin diğerine daha güçlü bir şekilde etki ettiğini gösterebilir.
 3. Veri Analizi ve Keşif: Korelasyon, veri analizinde kullanılarak değişkenler arasındaki ilişkileri keşfetmemize yardımcı olur. Bu, veri setindeki önemli ilişkileri anlamamıza ve veri keşfi yapmamıza olanak tanır.
 
-## Dezavantajları? <img src="/remove.png" alt="disadvantage" style="height:25px; width:25px;"/>
+## <img src="/remove.png" alt="disadvantage" style="height:25px; width:25px;"/> Dezavantajları? 
 1. Neden-Sonuç İlişkisi: Korelasyon, iki değişken arasında bir ilişki olduğunu gösterir, ancak bu ilişkinin neden-sonuç ilişkisi olup olmadığını belirtmez.2. İki değişken arasında korelasyon bulunması, birinin diğerini doğrudan etkilediği anlamına gelmez.
 3. Ek Açıklama İhtiyacı: Korelasyon, genellikle ek açıklama ve analiz gerektirir. İki değişken arasında korelasyon bulunması, diğer değişkenlerin etkisinin  göz ardı edildiği anlamına gelmez.
 4. Sınırlı Kapsam: Korelasyon, sadece iki değişken arasındaki ilişkiyi ölçer. Ancak bir veri setinde birden fazla değişkenin etkileşimi olabilir ve bu etkileşimleri korelasyon analiziyle ölçmek zor olabilir.
@@ -82,3 +82,12 @@ Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her
 2. Bu işlem birkaç farklı `x` ve `y` veri seti için tekrarlanıyor. Her bir `x` ve `y` veri seti için aynı işlemler yapılıyor: veriler scatter plot olarak görselleştiriliyor, Pearson korelasyon katsayısı hesaplanıyor ve bu değer ekrana yazdırılıyor.
 
 >Bu kod bloğu, farklı veri setleri üzerinde Pearson korelasyon katsayısının nasıl değiştiğini göstermek için kullanılıyor. `calculate_r()` fonksiyonu, veri setindeki değişkenler arasındaki ilişkinin gücünü ve yönünü ölçer ve bu ölçüm, scatter plot grafikleriyle görselleştirilir. Bu sayede, farklı veri setleri arasındaki ilişkilerin ne kadar güçlü olduğunu ve hangi yönde olduğunu görmemizi sağlar.
+
+---
+
+# Sonuç
+Bu çalışma, farklı veri setleri üzerinde yürütülen korelasyon analizi sonuçlarını göstermektedir. Analizlerimiz, veri setlerindeki değişkenler arasındaki ilişkilerin gücünü ve yönünü ölçmeye yöneliktir. Her bir veri seti için hesaplanan Pearson korelasyon katsayıları, değişkenler arasındaki ilişkinin gücünü belirlemekte ve pozitif veya negatif yöndeki ilişkiyi göstermektedir.
+
+Bu analizler, veri setlerindeki değişkenler arasındaki ilişkileri anlamak ve veri setlerindeki önemli ilişkileri keşfetmek için başlangıç ​​noktası olarak kullanılabilir. Ancak, kesin sonuçlara ulaşmak için daha fazla analiz ve bağımsız değişkenlerin etkisinin dikkate alınması gerekebilir.
+
+Bu örnek, çalışmanızın genel sonuçlarını özetler ve elde ettiğiniz bulguların anlamını vurgular. Ayrıca, analizinizi daha da geliştirmek için yapılacak potansiyel çalışmalara da işaret edebilirsiniz.
