@@ -8,6 +8,7 @@ Korelasyonun mutlak değeri, ilişkinin gücünü gösterirken işaret ise iliş
 <p align="center">
 <img src="/pearson-formula.png" alt="Pearson"/>
 <p>
+
 ## Pearson Katsayısı
 Korelasyon genellikle Pearson korelasyon katsayısı olarak adlandırılan bir ölçüyle ifade edilir. Pearson korelasyon katsayısı, -1 ile 1 arasında bir değer alır.
 
@@ -86,8 +87,6 @@ Bu kod bloğu aslında bir dizi farklı `x` ve `y` veri seti oluşturuyor ve her
 ---
 
 # Sonuç
-Bu çalışma, farklı veri setleri üzerinde yürütülen korelasyon analizi sonuçlarını göstermektedir. Analizlerimiz, veri setlerindeki değişkenler arasındaki ilişkilerin gücünü ve yönünü ölçmeye yöneliktir. Her bir veri seti için hesaplanan Pearson korelasyon katsayıları, değişkenler arasındaki ilişkinin gücünü belirlemekte ve pozitif veya negatif yöndeki ilişkiyi göstermektedir.
+Çalışmamız, farklı veri setleri üzerinde yürütülen korelasyon analizi sonuçlarını göstermektedir. Analizlerimiz, veri setlerindeki değişkenler arasındaki ilişkilerin gücünü ve yönünü ölçmeye yöneliktir. Her bir veri seti için hesaplanan Pearson korelasyon katsayıları, değişkenler arasındaki ilişkinin gücünü belirlemekte ve pozitif veya negatif yöndeki ilişkiyi göstermektedir.
 
-Bu analizler, veri setlerindeki değişkenler arasındaki ilişkileri anlamak ve veri setlerindeki önemli ilişkileri keşfetmek için başlangıç ​​noktası olarak kullanılabilir. Ancak, kesin sonuçlara ulaşmak için daha fazla analiz ve bağımsız değişkenlerin etkisinin dikkate alınması gerekebilir.
-
-Bu örnek, çalışmanızın genel sonuçlarını özetler ve elde ettiğiniz bulguların anlamını vurgular. Ayrıca, analizinizi daha da geliştirmek için yapılacak potansiyel çalışmalara da işaret edebilirsiniz.
+Bu analizler, veri setlerindeki değişkenler arasındaki ilişkileri anlamak ve veri setlerindeki önemli ilişkileri keşfetmek için başlangıç ​​noktası olarak kullanılabilir. Ancak, kesin sonuçlara ulaşmak için daha fazla analiz ve bağımsız değişkenlerin etkisinin dikkate alınması gerekebilir. Ayrıca, analizinizi daha da geliştirmek için yapılacak potansiyel çalışmalara da işaret edebilirsiniz.
