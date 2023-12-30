@@ -1,5 +1,4 @@
 import random
-
 import matplotlib.pyplot as plt
 
 def calculate_r(x, y):
